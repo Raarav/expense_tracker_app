@@ -9,7 +9,7 @@ export const expenseReducer = (state = initialState, action) => {
         case ADD_EXPENSE: {
             return{
                 ...state,
-                expenseList: [...state.expenseList, action.date],
+                expenseList: [...state.expenseList, action.data],
             };
         }
         default:
