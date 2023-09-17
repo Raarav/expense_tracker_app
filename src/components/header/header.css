@@ -5,10 +5,9 @@
 .header{
     display: flex;
     justify-content: space-between;
-    background-color: #71ccca;
     align-items: center;
     flex: 1;
-    margin: 6px 12px;    
+    margin: 6px 0px;    
 }
 
 .header-logo{
@@ -32,6 +31,7 @@
     border: 1px solid black;
     border-radius: 6px;
     padding: 0px 8px;
+    background-color: #71ccca;;
 }
 
 .header-button i {

@@ -15,7 +15,7 @@ const Card = ({item, notifySuccess }) => {
   }
   return (
   <div className='card' 
-    style={{ borderRight: `6px solif ${item.category.color}`}}
+    style={{ borderRight: `6px solid ${item.category.color}`}}
   >
     <div className='card-image-container'>
       <img src={item.category.icon.default}
@@ -30,7 +30,7 @@ const Card = ({item, notifySuccess }) => {
     <div className='card-right'>      
       <div>
         <label className='card-amount'>₹ {item.amount}</label>
-        <img onClick={handleDelete} style={{width: "25px", height: "25px"}} src={del} alt='delete'/>
+        <img onClick={handleDelete} src={del} alt='delete'/>
       </div>
     </div>
   </div>

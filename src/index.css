@@ -3,6 +3,12 @@ body {
   font-family: 'Noto Sans', sans-serif;
   background-color: #71ccca;
   color: #001f3f;
+  animation: body 5s infinite;
+}
+
+@keyframes body {
+  from {background-color: #71ccca;}
+  to {background-color: #F0D17F;}
 }
 
 code {

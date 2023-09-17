@@ -12,7 +12,7 @@ function Header() {
             </div>         
             <div className='header-button'>
               <a 
-                href="https://github.com/Raarav"
+                href="https://github.com/Raarav/expense_tracker_app"
                 target="_blank"
                 rel="noopener noreferrer"
               >

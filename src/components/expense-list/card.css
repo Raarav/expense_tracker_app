@@ -18,6 +18,23 @@
     justify-content: space-between;
 }
 
+.card-right div{
+    display: flex;
+    align-items: flex-end;
+}
+
+.card-right label{
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.card-right img{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
 .card-info {
     display: flex;
     flex: 1;
