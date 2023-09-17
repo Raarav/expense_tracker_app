@@ -5,6 +5,8 @@ import addIcon from "../../image/add-button-svgrepo-com.svg";
 import leftBackIcon from "../../image/left-navigation-back-svgrepo-com.svg";
 import cancelIcon from "../../image/cancel-button-svgrepo-com.svg";
 import {Link} from 'react-router-dom';
+import { useDispatch } from 'react-redux';
+import { searchExpense } from '../../redux/action/expenses';
 
 const iconsStyle = {
     "width": "20px",
@@ -13,9 +15,10 @@ const iconsStyle = {
 }
 function Topfold() {
   const [querry, setQuerry] = useState("");
-
+  const dispatch = useDispatch();
   const handleQuerry = (e) => {
     setQuerry(e.target.value)
+    dispatch(searchExpense(e.target.value))
   }
   return (    
     <div className='topfold'>
